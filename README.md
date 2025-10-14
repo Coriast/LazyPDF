@@ -1,4 +1,7 @@
 # LazyPDF
+
+![Vue](https://img.shields.io/badge/Vue-%23008000?style=for-the-badge&logo=Vue.js) ![Nuxt](https://img.shields.io/badge/Nuxt-%23008000?style=for-the-badge&logo=Nuxt) ![Tauri](https://img.shields.io/badge/Tauri-%23b89f00?style=for-the-badge&logo=Tauri)
+
 PDF reader with improvements for studying
 
 # Nuxt Minimal Starter
@@ -10,16 +13,6 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
@@ -28,16 +21,6 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
@@ -46,33 +29,27 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
 bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Desktop
+
+Install the [prerequisites](https://v2.tauri.app/start/prerequisites/).
+
+Start the development environment:
+
+```bash
+ bun tauri dev
+```
+
+Build the desktop environment:
+
+```bash
+ bun tauri build
+```
