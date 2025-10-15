@@ -1,2 +1,3 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+@import "pdfjs-dist/web/pdf_viewer.css";
