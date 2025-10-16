@@ -1,3 +1,8 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 @import "pdfjs-dist/web/pdf_viewer.css";
+
+html, body, #__nuxt, #__layout {
+    width: 100%;
+    height: 100%;
+}
