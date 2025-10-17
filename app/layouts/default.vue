@@ -43,7 +43,7 @@ const links = [
   ],
   [
     {
-      label: "Settings",
+      label: "Configurações",
       to: "/settings",
       icon: "i-lucide-settings",
       defaultOpen: false,
@@ -58,22 +58,15 @@ const links = [
           },
         },
         {
-          label: "Members",
-          to: "/settings/members",
+          label: "Outra config 1",
+          to: "/settings/othersetting",
           onSelect: () => {
             open.value = false;
           },
         },
         {
-          label: "Notifications",
-          to: "/settings/notifications",
-          onSelect: () => {
-            open.value = false;
-          },
-        },
-        {
-          label: "Security",
-          to: "/settings/security",
+          label: "Outra config 2",
+          to: "/settings/anothersetting",
           onSelect: () => {
             open.value = false;
           },
