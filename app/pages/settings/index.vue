@@ -1,7 +1,7 @@
 <template>
-  <UDashboardPanel id="home">
+  <UDashboardPanel id="settings">
     <template #header>
-      <UDashboardNavbar title="Home" :ui="{ right: 'gap-3' }">
+      <UDashboardNavbar title="Configurações" :ui="{ right: 'gap-3' }">
         <template #leading>
           <UDashboardSidebarCollapse />
         </template>
@@ -9,8 +9,8 @@
     </template>
     <template #body>
       <div class="w-full h-full text-center items-center">
-        <h1>Hello World!</h1>
-        <p>(Livros recentes, dentre outros)</p>
+        <h1>Configurações</h1>
+        <p>(Configurações aqui)</p>
       </div>
     </template>
   </UDashboardPanel>
