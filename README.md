@@ -10,6 +10,11 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## Setup
 
+No caso, se encontrar um erro de javascriptcoregtk-4.1:
+```bash
+sudo pacman -S webkit2gtk-4.1
+```
+
 Make sure to install dependencies:
 
 ```bash
